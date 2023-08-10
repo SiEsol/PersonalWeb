@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;500;700&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, #010e16, #000f1a, #00111f, #001123, #001227, #00142a, #00162c, #00182f, #001b31, #011e34, #022136, #032438);
+}
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #010e16, #000f1a, #00111f, #001123, #001227, #00142a, #00162c, #00182f, #001b31, #011e34, #022136, #032438);
+}
+
+
+#navbar {
+    list-style: none;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+#navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+#navbar li a:hover {
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+/* left */
+#left {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+#wrap #text {
+    margin-bottom: 2.5rem;
+}
+
+#wrap #text h1{
+    padding-bottom: 1rem;
+    font-weight: 900;
+    color: #8198ff;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+#wrap #text h4 {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+#main-btn .hire-btn{
+    padding: 1rem 3rem;
+    background: linear-gradient(to right top, #041836, #004368, #007496, #00a8ba, #3bddd1);
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    color: white;
+    border: none;
+}
+
+#main-btn .hire-btn:hover {
+    padding: 1rem 3rem;
+    background: #fff;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #426dfb;
+    font-weight: 600;
+    border: none;
+}
+
+#social-btn {
+    margin-top: 7rem;
+}
+
+#social-btn a{
+    padding-right: 2rem;
+}
+
+#social-btn a i {
+    font-size: 30px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+#social-btn a i:hover {
+    font-size: 30px;
+    color: rgb(15, 52, 100);
+}
+
+/* right */
+#right {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    margin-top: 20rem;
+}
